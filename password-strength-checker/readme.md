@@ -1,4 +1,4 @@
-# Password Strength Checker 🔐
+# Password Strength Checker
 
 This is a simple GUI tool written in Python to evaluate the strength of user passwords.
 
