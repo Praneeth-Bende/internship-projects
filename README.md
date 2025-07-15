@@ -1,12 +1,12 @@
-# 💼 Internship Projects – Cybersecurity & Python
+# Internship Projects – Cybersecurity
 
 This repository contains 3 hands-on cybersecurity projects built using Python. Each project demonstrates a specific security concept such as password analysis, encrypted communication, and local vulnerability scanning.
 
 ---
 
-## 📁 Project List
+## Project List
 
-### 1️⃣ Password Strength Checker
+### 1. Password Strength Checker
 
 A GUI-based tool that evaluates the strength of a user’s password using character analysis and gives real-time suggestions.
 
@@ -15,11 +15,11 @@ A GUI-based tool that evaluates the strength of a user’s password using charac
   - Classifies passwords as Weak, Medium, or Strong
   - Detects missing character types
   - Generates secure password suggestions
-- 📂 [`password-strength-checker`](./password-strength-checker)
+- [`password-strength-checker`](./password-strength-checker)
 
 ---
 
-### 2️⃣ Secure Chat App
+### 2. Secure Chat App
 
 An encrypted client-server chat system using AES symmetric encryption and socket programming.
 
@@ -28,11 +28,11 @@ An encrypted client-server chat system using AES symmetric encryption and socket
   - End-to-end encrypted chat using Fernet (AES)
   - Supports multiple clients
   - Secure communication over LAN
-- 📂 [`secure-chat-app`](./secure-chat-app)
+- [`secure-chat-app`](./secure-chat-app)
 
 ---
 
-### 3️⃣ Vulnerability Scanner
+### 3. Vulnerability Scanner
 
 A localhost scanner that checks for open ports and running services using Nmap, and generates a detailed security report.
 
@@ -41,11 +41,6 @@ A localhost scanner that checks for open ports and running services using Nmap, 
   - Scans localhost (`127.0.0.1`) for open ports
   - Identifies running services and versions
   - Saves results in `report.txt`
-- 📂 [`vulnerability-scanner`](./vulnerability-scanner)
+- [`vulnerability-scanner`](./vulnerability-scanner)
 
 ---
-
-## ✅ Requirements
-
-```bash
-pip install cryptography python-nmap
